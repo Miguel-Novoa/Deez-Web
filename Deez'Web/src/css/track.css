@@ -1,0 +1,116 @@
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    width: 100%;
+}
+
+h2{
+    width: 75%;
+}
+
+#albumInfos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    width: 75%;
+}
+
+#albumInfos img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+#albumInfos p{
+    font-size: 0.7rem;
+}
+
+#trackInfos{
+    width: 75%;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    position: relative;
+    top: 10px;
+}
+
+#trackInfos p{
+    font-size: 1rem;
+}
+
+#extrait{
+    width: 75%;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    position: relative;
+    top: 20px;
+}
+
+#extrait audio{
+    width: 100%;
+}
+
+#trackBtns{
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    position: relative;
+    justify-content: space-between;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+#trackBtns a img{
+    width: 30px;
+    cursor: pointer;
+}
+
+#like{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width : 850px){
+    main{
+        top: 90px;
+    }
+
+    h2{
+        width: 40%;
+    }
+    
+    #albumInfos{
+        width: 40%;
+    }
+    
+    #albumInfos p{
+        font-size: 1.1rem;
+    }
+    
+    #trackInfos{
+        width: 40%;
+        top: 20px;
+    }
+    
+    #trackInfos p{
+        font-size: 1.4rem;
+    }
+    
+    #extrait{
+        width: 40%;
+        top: 30px;
+    }
+    
+    #trackBtns{
+        width: 35%;
+        top: 50px;
+        margin-bottom: 70px;
+    }
+}

@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+#artistInfos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    width: 75%;
+}
+
+#artistInfos img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+#artistText{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    justify-self: left;
+}
+
+button{
+    position: relative;
+    top: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    text-align: center;
+}
+
+button:hover{
+    background-color: var(--font-color);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+@media screen and (min-width : 850px){ 
+    main{
+        top: 90px;
+    }
+    
+    #artistInfos{
+        width: 30%;
+    }
+    
+    #artistText{
+        font-size: 1.2rem;
+    }
+}
