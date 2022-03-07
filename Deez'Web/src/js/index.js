@@ -60,9 +60,9 @@ const displayCards = () =>{
           <p class="card-text">${datas[i].artist.name  + ' / ' + datas[i].album.title}</p>
           <p class="card-text">${'Durée : ' + convertSecondsToMinutes(datas[i].duration)}</p>
           <div class="cardBtnsDiv">
-            <a href="http://127.0.0.1:8080/pages/track.html?id=${datas[i].id}" id="${i}" class="btn btn-primary">Ecouter un extrait</a>
-            <a href="http://127.0.0.1:8080/pages/album.html?id=${datas[i].album.id}" class="btn btn-primary">Voir la page de l'album</a>
-            <a href="http://127.0.0.1:8080/pages/artist.html?id=${datas[i].artist.id}" class="btn artistPage btn-primary">Voir la page de l'artiste</a>
+            <a href="https://deez-web-d1260.web.app/pages/track.html?id=${datas[i].id}" id="${i}" class="btn btn-primary">Ecouter un extrait</a>
+            <a href="https://deez-web-d1260.web.app/pages/album.html?id=${datas[i].album.id}" class="btn btn-primary">Voir la page de l'album</a>
+            <a href="https://deez-web-d1260.web.app/pages/artist.html?id=${datas[i].artist.id}" class="btn artistPage btn-primary">Voir la page de l'artiste</a>
           </div>
         </div>
       </div>

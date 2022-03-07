@@ -9,7 +9,7 @@ const generateFavTracksList = () =>{
         favTracksSection.innerHTML+=`
             <div class="track">
                 <p>❤</p>
-                <p><a href="http://127.0.0.1:8080/pages/track.html?id=${tracksLikedList[a].id}">${tracksLikedList[a].title}</a></p>
+                <p><a href="https://deez-web-d1260.web.app/pages/track.html?id=${tracksLikedList[a].id}">${tracksLikedList[a].title}</a></p>
                 <p id='${deleteID}' class='delete'>🗑</p>
             </div>
         `
