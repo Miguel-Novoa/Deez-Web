@@ -27,6 +27,10 @@ main{
     width: 20px;
 }
 
+.delete{
+    cursor: pointer;
+}
+
 #popup{
     display: none;
     width: 70%;
